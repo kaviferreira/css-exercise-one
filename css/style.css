@@ -1,36 +1,52 @@
+
+/* This the font size for the whole body section */
 body
+{
   font-size: 14px;
 }
 
+/* This is setting the position, height etc for the nav bar, I removed the
+background-color and set it to example instead */
 nav {
-  background color: yellow;
+
   height: 100px;
-  margin-top: -10px;
-  position: fixed;
+  position: relative;
+  top: 10px;
   width: 100%;
+}
+/* this is how I am getting yellow background-color for nav bar */
+.example {
+  background-color: yellow;
+}
+/* font and font size of h1 family */
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
 
+/* This is the sytling for the elememt class of h3 heading */
+.element {
+  background-color: green;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+/* I created new elements for the last three div to give them different color */
+.element1 {
+  background-color: #eeffff;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
 
+/* h3 styling, I increaded the top padding to bring the text in center */
+h3 {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 1.3em;
+}
+/* This is determinig the size of the section and margin */
 section {
   margin: 0 auto;
   width: 60%;
 }
-
-h1 {
-  font-family sans-serif;
-  font-size: 2em;
-}
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
-}
-
-h3 {
-  font-size: 1.3em;
-}
-
-.element {
-  background-color: green;
-  height: 100px;
-  margin 10px 0;
-  width: 100%;
